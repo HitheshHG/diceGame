@@ -1,0 +1,74 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+}
+
+body {
+  background-color: #393e46;
+}
+
+h1 {
+  margin: 30px;
+  font-family: "Lobster", cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 4rem;
+  color: #4ecca3;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ecca3;
+  font-family: "Indie Flower", cursive;
+}
+
+img {
+  width: 80%;
+}
+
+footer {
+  margin-top: 5%;
+  color: #eeeeee;
+  text-align: center;
+  font-family: "Indie Flower", cursive;
+}
+.button-container {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.button-container {
+  justify-content: center;
+  align-items: center;
+}
+
+.roll-button {
+  background-color: #4ecca3;
+  border: none;
+  color: #232931;
+  padding: 15px 30px;
+  font-size: 1.8rem;
+  font-family: "Indie Flower", cursive;
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: 0 8px 20px rgba(78, 204, 163, 0.4);
+  transition: all 0.3s ease-in-out;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px #fff;
+}
+
+.roll-button:hover {
+  background-color: #45b89d;
+  transform: scale(1.05);
+  box-shadow: 0 12px 25px rgba(78, 204, 163, 0.6);
+}
+
+.roll-button:active {
+  transform: scale(0.95);
+  box-shadow: 0 4px 10px rgba(78, 204, 163, 0.3);
+}
