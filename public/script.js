@@ -18,4 +18,9 @@ document.querySelector("button").addEventListener("click", function () {
   } else {
     document.querySelector("h1").innerHTML = "Draw!";
   }
+
+  var audio=new Audio("./audio.mp3");
+  audio.play();
+
 });
+
